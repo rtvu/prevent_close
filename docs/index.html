@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Prevent Close</title>
+  </head>
+  <body>
+    <script>
+      window.onbeforeunload = function() { return "Close this web page?"; }
+      window.alert("Click on page");
+    </script>
+  </body>
+</html>
